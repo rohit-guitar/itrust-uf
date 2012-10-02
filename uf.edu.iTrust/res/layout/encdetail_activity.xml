@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Udayan Kumar.
+  All rights reserved. 
+  
+  This file is part of iTrust application for android.
+  iTrust is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
+  
+  iTrust is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License along with iTrust.  If not, see <http://www.gnu.org/licenses/>.
+  
+  Contributors:
+      Udayan Kumar - initial API and implementation
+-->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="#ffffff">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="0">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name" android:textColor ="#000000" android:layout_marginLeft="10px" ></TextView>
+    		<TextView android:id="@+id/encdetail_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Device Name" android:textColor ="#000000"  android:layout_marginRight="10px"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MAC" android:textColor ="#000000" android:layout_marginLeft="10px"></TextView>
+
+    		<TextView
+    		    android:id="@+id/encdetail_mac"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_marginRight="50px"
+    		    android:background="@drawable/drop_shadow"
+    		    android:clickable="true"
+    		    android:text="Device MAC"
+    		    android:textColor="#0000FF" >
+</TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Last Encounter" android:textColor ="#000000" android:layout_marginLeft="10px"></TextView>
+
+    		<TextView
+    		    android:id="@+id/encdetail_lasttime"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_marginRight="100px"
+    		    android:background="@drawable/drop_shadow"
+    		    android:text="Encounter Time"
+    		    android:textColor="#0000FF" >
+</TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AP Names" android:textColor ="#000000" android:layout_marginLeft="10px"></TextView>
+    		<TextView android:id="@+id/encdetail_apname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AP Names" android:textColor ="#000000" android:layout_marginRight="10px"></TextView>
+        </TableRow>
+         <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+
+             <TextView
+                 android:id="@+id/TextView01"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10px"
+                 android:text="Encounter Scores"
+                 android:textColor="#cc6600" />
+
+			<TextView
+        	    android:id="@+id/TextView01"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center_vertical"
+        	    android:text="(Decay scores are in Red)"        	   
+        	    android:layout_marginRight="10px"
+        	            	    
+        	    android:textColor="#000dd0" >
+			</TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_weight="3"
+                android:text="Frequency of Encounters"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/encdetail_FE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10px"
+                android:layout_weight="1"
+                android:text="FE"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/encdetail_decayFE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10px"
+                android:layout_weight="1"
+                android:text="FE"
+                android:textColor="#ff0000" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_weight="3"
+                android:text="Duration of Encounter"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/encdetail_DE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+               android:layout_marginRight="10px" 
+                android:text="DE"
+                android:textColor="#000000" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/encdetail_decayDE"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="DE"
+                android:layout_marginRight="10px"
+                android:textColor="#ff0000" >
+            </TextView>
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight=".5">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location Vector - Count" android:textColor ="#000000" android:layout_marginLeft="10px"></TextView>
+    		<TextView android:id="@+id/encdetail_LVC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location Vector-Count" android:textColor ="#000000" android:layout_marginRight="10px"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight=".5">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location Vector - Duration" android:textColor ="#000000" android:layout_marginLeft="10px"></TextView>
+    		<TextView android:id="@+id/encdetail_LVD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location Vector-Duration" android:textColor ="#000000" android:layout_marginRight="10px"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight=".5">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Combined Score" android:textColor ="#000000" android:layout_marginLeft="10px"></TextView>
+    		<TextView android:id="@+id/encdetail_comb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Combined Score" android:textColor ="#000000" android:layout_marginRight="10px"></TextView>
+        </TableRow>
+
+          <TableRow
+              android:id="@+id/tableRow1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_weight="1" >
+
+        	<TextView
+        	    android:id="@+id/TextView01"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center_vertical"
+        	    android:layout_marginLeft="10px"
+        	    android:text="More Things to Do"
+        	    android:textColor="#cc6600" >
+</TextView>
+        </TableRow>
+         <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Encounters on Map" android:textColor ="#000000" android:layout_marginLeft="10px"></TextView>
+    		<TextView android:id="@+id/encdetail_map" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click Here" android:textColor ="#0000FF"   android:layout_marginRight="100px" android:background="@drawable/drop_shadow"
+    		    ></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Post on Facebook" android:textColor ="#000000" android:layout_marginLeft="10px"></TextView>
+    		<TextView android:id="@+id/encdetail_fb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Not available" android:textColor ="#000000" android:layout_marginRight="10px"></TextView>
+        </TableRow>
+        
+         <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current Trust Status" android:textColor ="#cc6600" android:layout_marginLeft="10px"></TextView>
+        </TableRow>
+
+         <TableRow
+             android:id="@+id/tableRow1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              >
+
+             <TextView
+                 android:id="@+id/TextView01"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="fill_vertical"
+                 android:layout_marginLeft="10px"
+                 android:layout_marginTop="10dip"
+                 android:text="Trusted Rating"
+                 android:textColor="#000000"
+                 android:textSize="15sp" />
+				
+				<TextView
+				    android:id="@+id/CurrentTrustValue"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="left"
+				    android:text="No Information"
+				    android:textColor="#000000" />
+             
+         </TableRow>
+
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="20dp"
+		    android:layout_weight="1" >
+
+			<SeekBar
+			    android:id="@+id/encdetail_trust"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="30dp"
+			    android:layout_marginRight="30dp"
+			    android:layout_weight =".2"
+			    android:max="@string/TrustSliderMax"
+			    android:progress="2"
+			    android:progressDrawable="@drawable/seekbar_custom" />
+		    
+		</TableRow>
+        <Button android:text="Save and Go back" android:id="@+id/encdetail_done" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight=".2" android:layout_marginLeft="50dip" android:layout_marginRight="50dip"></Button>
+              
+    </TableLayout>
+    
+</LinearLayout>

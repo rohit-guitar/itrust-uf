@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Udayan Kumar.
+  All rights reserved. 
+  
+  This file is part of iTrust application for android.
+  iTrust is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
+  
+  iTrust is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License along with iTrust.  If not, see <http://www.gnu.org/licenses/>.
+  
+  Contributors:
+      Udayan Kumar - initial API and implementation
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="70dip"
+        android:layout_height="100dip"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/icon" />
+
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" >
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iTrust: Encounter Based Trust Recommendation"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                 android:layout_span="2"
+                 android:textColor ="#000000"
+                  />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact:"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:layout_span="2"
+                android:textColor ="#000000"/>
+        </TableRow>
+        
+         <TableRow>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Udayan Kumar"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:textColor ="#000000"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:autoLink="email"
+                android:text="ukumar@cise.ufl.edu"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Dr. Ahmed Helmy"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:textColor ="#000000"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:autoLink="email"
+                android:text="helmy@cise.ufl.edu"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#000000" />
+
+        </TableRow>   
+        
+           <TableRow>
+
+               <Button
+                   android:id="@+id/about_updatebutton"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="30dp"
+                   android:layout_span="2"
+                   android:text="Get the Latest Version" />
+            
+        </TableRow> 
+        
+            <TableRow>
+
+               <TextView
+                   android:id="@+id/textview2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="30dp"
+                   android:layout_span="2"
+                   android:text="For more Info vist:"
+                   android:textColor="#000000" />
+            
+        </TableRow> 
+          <TableRow>
+
+               <TextView
+                   android:id="@+id/textview2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_span="2"
+                   android:autoLink="web"
+                   android:text="http://128.227.176.22:8182/"
+                   android:textColor="#000000" />
+            
+        </TableRow> 
+    </TableLayout>    
+    
+</LinearLayout>
