@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2012 Udayan Kumar.
+  All rights reserved. 
+  
+  This file is part of iTrust application for android.
+  iTrust is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
+  
+  iTrust is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License along with iTrust.  If not, see <http://www.gnu.org/licenses/>.
+  
+  Contributors:
+      Udayan Kumar - initial API and implementation
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff" >
+
+    <item
+        android:id="@+id/start_scan"
+        android:icon="@drawable/ic_menu_start"
+        android:title="@string/startScanning"/>
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/refresh"/>
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/ic_menu_sort"
+        android:title="@string/sort"/>
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/ic_menu_update_address"
+        android:title="@string/update_location"/>
+    <item
+        android:id="@+id/setWeighted"
+        android:icon="@drawable/ic_menu_weight"
+        android:title="@string/SetWeight"/>
+    <item
+        android:id="@+id/uploadEnc"
+        android:icon="@drawable/ic_menu_settings"
+        android:title="@string/uploadEnc"/>
+    <item
+        android:id="@+id/register"
+        android:icon="@drawable/ic_menu_settings"
+        android:title="@string/register"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_menu_settings"
+        android:title="@string/settings"/>
+    <item
+        android:id="@+id/selfstat"
+        android:icon="@drawable/ic_menu_settings"
+        android:title="@string/selfstat"/>
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_menu_help"
+        android:title="@string/help"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/icon"
+        android:title="@string/about"/>
+
+</menu>

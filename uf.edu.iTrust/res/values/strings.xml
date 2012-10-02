@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Udayan Kumar.
+  All rights reserved. 
+  
+  This file is part of iTrust application for android.
+  iTrust is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
+  
+  iTrust is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License along with iTrust.  If not, see <http://www.gnu.org/licenses/>.
+  
+  Contributors:
+      Udayan Kumar - initial API and implementation
+-->
+<resources>
+    <string name="hello">Hello World, iTrust!</string>
+    <string name="app_name">iTrust - Encounter based Trust Recommendation</string>
+    <string name="stopScanning">Stop Scanning</string>
+    <string name="startScanning">Start Scanning</string>
+    <string name="DataPath">/iTrust</string>
+    <string name="refresh">Refresh Scores</string>
+    <string name="Refreshing">Refreshing</string><string name="deviceName">Device Name</string>
+    <string name="uploadEnc">Upload Encounters</string>
+    <string name="sort">Sort</string>
+    <string name="update_location">Update Locations</string>
+    <string name="help">Help</string>
+    <string name="SetWeight">Set Weight</string>
+    <string name="uploadURL">http://128.227.176.22:8182/cgi-bin/test2.py</string>
+    <string-array name="filesToZip">
+    	<item>TrustedUser</item>
+    	<item>ZIPscannedDataB</item>
+    	<item>ZIPscannedDataW</item>
+    	<item>ClickDataLog</item>
+    </string-array>
+    <string name="register">Register</string>
+    <string name="ClickDataLog">ClickDataLog</string>
+    <string name="about">About iTrust</string>
+    <string name="TrustSliderMax">4</string>
+    <integer-array name="refreshCond">
+        <item >10000</item>
+        <item >2</item>
+    </integer-array>
+    <string name="eula">EULA and about this app: The app iTrust is designed to provide you and other apps on this device with a complete view of surrounding device and people. Presently this application is in beta testing mode and with current setting anonymized information is periodically uploaded to our servers. We use this information for improving the app and for research purposes. We will not share this information with any one. You can easily opt out of uploading data from the settings page. The developer takes no responsibility of any good or bad outcomes you may have upon using this app. The software is released under GPLV3 license a copy of which is available in the source code. License information of individual files is present in the source code of the file itself </string>
+    <string name="updates">UPDATES: This version provides more analytics about the encountered users.</string>
+    <string name="settings">Settings</string>
+    <string name="selfstat">Self Statistics</string>
+    <string name="uploadPeriodDays">7</string>
+    <string name="DownloadPath">http://128.227.176.22:8182/itrust-android.apk</string>
+    <string name="registryURL">Please enter the correct link</string>
+    
+</resources>
